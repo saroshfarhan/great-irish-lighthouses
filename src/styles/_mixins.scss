@@ -1,0 +1,79 @@
+// =============================================================================
+// Texture recipes.
+//
+// Sass earns its place here and only here: mixins and loops, things neither
+// Tailwind nor plain CSS can express. Note that every colour below is read from
+// a CSS custom property defined in theme.css — there is not one `$colour`
+// variable in this file, and there must never be (Rule 2 in CLAUDE.md).
+// =============================================================================
+
+@use 'sass:math';
+
+/// Fine film grain. Keeps large flat areas of ink from banding on cheap panels
+/// and gives the chart its printed feel.
+@mixin grain($opacity: 0.035, $size: 180px) {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
+    opacity: $opacity;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: $size $size;
+  }
+}
+
+/// Bathymetric depth contours — the concentric linework of a sea chart, used as
+/// a background motif behind panels.
+@mixin contours($spacing: 26px, $angle: 112deg) {
+  background-image: repeating-linear-gradient(
+    $angle,
+    transparent 0,
+    transparent #{$spacing - 1px},
+    var(--color-contour) #{$spacing - 1px},
+    var(--color-contour) $spacing
+  );
+}
+
+/// Graticule tick marks along an edge, the way a chart is ruled off in minutes
+/// of latitude and longitude.
+@mixin graticule($side: left, $every: 12px, $length: 5px) {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    #{$side}: 0;
+    top: 0;
+    bottom: 0;
+    width: $length;
+    pointer-events: none;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--color-graticule) 0,
+      var(--color-graticule) 1px,
+      transparent 1px,
+      transparent $every
+    );
+  }
+}
+
+/// The glow of a lit optic. Layered radial stops rather than a blur filter:
+/// `filter: blur()` forces an offscreen buffer per element and would cost us
+/// the frame budget once several lights are lit at once.
+///
+/// `$colour` must be a CSS custom property reference, e.g. var(--color-light-red).
+@mixin bloom($colour, $radius: 26px, $strength: 0.55) {
+  box-shadow:
+    0 0 #{math.div($radius, 3)} color-mix(in srgb, #{$colour} #{$strength * 100%}, transparent),
+    0 0 $radius color-mix(in srgb, #{$colour} #{$strength * 55%}, transparent),
+    0 0 #{$radius * 2} color-mix(in srgb, #{$colour} #{$strength * 22%}, transparent);
+}
+
+/// A hairline rule in chart ink, for panel edges.
+@mixin hairline($side: bottom) {
+  border-#{$side}: 1px solid var(--color-graticule);
+}

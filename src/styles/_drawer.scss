@@ -1,0 +1,32 @@
+// =============================================================================
+// Station drawer geometry.
+//
+// Written in Sass rather than utilities because the mobile and desktop forms
+// set the *same* properties to conflicting values (`left: 0` vs `left: auto`),
+// and Tailwind resolves that by source order within its utilities layer — where
+// `left-0` lands after `sm:left-auto`, so the responsive override silently
+// loses. A media query here is unambiguous and reads better than fighting the
+// sort with arbitrary-property escapes.
+// =============================================================================
+
+.station-drawer {
+  position: absolute;
+  z-index: 30;
+
+  // Phone: a bottom sheet. Tall enough to be worth opening, short enough to
+  // leave the light you tapped visible on the chart above it.
+  inset: auto 0 0 0;
+  height: 68vh;
+  max-height: 34rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+  @media (min-width: 640px) {
+    // Desktop: a side panel against the right edge, full height.
+    inset: 0 0 0 auto;
+    width: 24rem;
+    height: 100%;
+    max-height: none;
+    border-radius: 0;
+  }
+}

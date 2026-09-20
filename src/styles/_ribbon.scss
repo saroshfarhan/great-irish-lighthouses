@@ -1,0 +1,79 @@
+// =============================================================================
+// The character ribbon.
+//
+// The signature element: a station's flash pattern drawn as bars across one
+// period, with a playhead sweeping in real time. It is how you *read* a rhythm
+// and compare two stations, and it is driven by the same clock as the map dot
+// and the 3D beam.
+//
+// The bars themselves are positioned inline from the parsed timeline (their
+// widths are data, not style). What lives here is everything around them.
+// =============================================================================
+
+@use 'mixins' as *;
+
+.ribbon {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  overflow: hidden;
+  border-radius: 2px;
+  background: var(--color-ink-800);
+  box-shadow: inset 0 0 0 1px var(--color-graticule);
+}
+
+// One phase of the character — lit or dark.
+.ribbon__phase {
+  height: 100%;
+  transition: opacity 120ms linear;
+
+  &--dark {
+    background: repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 3px,
+      var(--color-ink-700) 3px,
+      var(--color-ink-700) 4px
+    );
+  }
+
+  &--lit {
+    background: var(--light-colour, var(--color-light-white));
+    box-shadow: 0 0 10px color-mix(in srgb, var(--light-colour, #fff4d6) 60%, transparent);
+  }
+}
+
+// Sweeps left to right once per period. Its position is set from the shared
+// clock rather than a CSS animation, so it cannot drift out of phase with the
+// map and the 3D beam — one source of truth for what time it is.
+.ribbon__playhead {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--color-brass);
+  box-shadow: 0 0 6px var(--color-brass);
+  pointer-events: none;
+  will-change: transform;
+}
+
+// Second markings along the ribbon's foot, like a chart's scale bar.
+.ribbon__scale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+  color: var(--color-paper-faint);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+}
+
+// Reduced motion: hide the sweeping playhead entirely. The bars still show the
+// pattern, which is the information; the sweep is only the animation of it.
+@media (prefers-reduced-motion: reduce) {
+  .ribbon__playhead {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+// Sass entry point. Loaded after theme.css in main.tsx, so every custom
+// property these partials reference is already defined.
+//
+// Scope: texture, glow and the character ribbon — the things Tailwind cannot
+// express. Layout, spacing and typography stay in utility classes.
+
+@use 'atmosphere';
+@use 'drawer';
+@use 'ribbon';

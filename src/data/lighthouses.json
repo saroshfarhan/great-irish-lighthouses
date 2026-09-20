@@ -1,0 +1,4407 @@
+[
+  {
+    "id": "achillbeg",
+    "name": "Achillbeg",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/achillbeg.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.858483,
+      "lon": -9.94725,
+      "raw": "53°51.509' North 09°56.835' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 5s"
+    },
+    "sectors_raw": "R262°-281° (19°), W281°-342° (61°), R342°-060° (78°), W060°-092° (32°), R(intens)092°-099° (7°), W099°-118° (19°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 262.0,
+        "to_deg": 281.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 19.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 281.0,
+        "to_deg": 342.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 61.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 342.0,
+        "to_deg": 60.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 78.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 60.0,
+        "to_deg": 92.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 32.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 92.0,
+        "to_deg": 99.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 7.0,
+        "qualifier": "intens"
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 99.0,
+        "to_deg": 118.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 19.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 16 nautical miles, Red (intensified) 18 nautical miles, Red 11 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 16.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 18.0,
+        "qualifier": "intensified"
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 9.0,
+    "light_height_m": 56.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16408/2010-06-19-Achillbeg-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/16409/Achillbeg-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16410/Achillbeg-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/16411/Achillbeg-bonb_MainImage.jpg",
+      "https://www.irishlights.ie/media/16412/Achillbeg-led_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#eceae4",
+      "bands": [],
+      "lantern_colour": "#1b1c20",
+      "gallery_colour": "#9c9a96",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "aranmore",
+    "name": "Aranmore",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/aranmore.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.01505,
+      "lon": -8.5611,
+      "raw": "55°00.903' North 08°33.666' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Fl (2) W 20s. Auxiliary Light Fl R 3s over Stag Rocks"
+    },
+    "sectors_raw": "Obscured by land 234°-007° (133°) and bearing 013°, + Aux R Vis 203°-234° (31°)",
+    "sectors": [
+      {
+        "kind": "obscured",
+        "colour": null,
+        "from_deg": 234.0,
+        "to_deg": 7.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 133.0,
+        "qualifier": null
+      },
+      {
+        "kind": "visibility",
+        "colour": "red",
+        "from_deg": 203.0,
+        "to_deg": 234.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 31.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "27 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 27.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 23.0,
+    "light_height_m": 71.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16413/Aranmore-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16414/Aranmore-optic_MainImage.jpg",
+      "https://www.irishlights.ie/media/16415/Aranmore-Painting-job-completed_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#eceae4",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "ardnakinna",
+    "name": "Ardnakinna",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/ardnakinna.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.6184,
+      "lon": -9.9182,
+      "raw": "51°37.104' North 09°55.092' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Fl (2) WR 10s"
+    },
+    "sectors_raw": "R319°-348° (29°), W348°-066° (78°), R066°-shore",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 319.0,
+        "to_deg": 348.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 29.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 348.0,
+        "to_deg": 66.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 78.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 66.0,
+        "to_deg": null,
+        "from_shore": false,
+        "to_shore": true,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 17 nautical miles, Red 14 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 17.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 14.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 20.0,
+    "light_height_m": 62.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16416/Ardnakinna-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16417/Ardnakinna-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16418/Ardnakinna-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/16419/Ardnakinna-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/16420/Ardnakinna-5_MainImage.jpg",
+      "https://www.irishlights.ie/media/16421/Ardnakinna-6_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#1b1c20",
+      "gallery_colour": "#1b1c20",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "baily",
+    "name": "Baily",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/baily.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 53.361517,
+      "lon": -6.052633,
+      "raw": "53°21.691' North 06°03.158' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 15s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 13.0,
+    "light_height_m": 41.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14209/Baily-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/14210/Baily-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/14211/Baily-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/14212/Baily-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/14213/Baily-5_MainImage.jpg",
+      "https://www.irishlights.ie/media/14214/Baily-6_MainImage.jpg",
+      "https://www.irishlights.ie/media/14215/Baily-7_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#1b1c20",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "ballagh-rocks",
+    "name": "Ballagh Rocks",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/ballagh-rocks.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 54.999383,
+      "lon": -8.48065,
+      "raw": "54°59.963' North 08°28.839' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 2.5s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "5 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 5.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 10.0,
+    "light_height_m": 13.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16422/Ballagh-Rocks_MainImage.jpg",
+      "https://www.irishlights.ie/media/16423/Ballagh-Rocks-1_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#d8d5ce",
+      "bands": [],
+      "lantern_colour": "#6e7176",
+      "gallery_colour": "#6e7176",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "generic"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "ballinacourty-point",
+    "name": "Ballinacourty Point",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/ballinacourty-point.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 52.078133,
+      "lon": -7.553033,
+      "raw": "52°04.688' North 07°33.182' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) WRG 10s"
+    },
+    "sectors_raw": "G245°-274° (29°).W274°-302° (28°). R302°-325° (23°). W325°-117° (152°).",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "green",
+        "from_deg": 245.0,
+        "to_deg": 274.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 29.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 274.0,
+        "to_deg": 302.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 28.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 302.0,
+        "to_deg": 325.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 23.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 325.0,
+        "to_deg": 117.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 152.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 10 nautical miles, Red 8 nautical miles, Green 8 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 10.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 13.0,
+    "light_height_m": 16.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16424/Ballinacourty_MainImage.jpg",
+      "https://www.irishlights.ie/media/16425/Ballinacourty-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16426/Ballinacourty-2_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "ballycotton",
+    "name": "Ballycotton",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/ballycotton.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.825367,
+      "lon": -7.98615,
+      "raw": "51°49.522' North 07°59.169' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 10s"
+    },
+    "sectors_raw": "W 238°-°048° (170°).R 048°-238° (190°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 48.0,
+        "to_deg": 238.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 190.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 21 nautical miles, Red 17 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 21.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 17.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 59.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16427/Ballycotton_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#d8d5ce",
+      "bands": [],
+      "lantern_colour": "#6e7176",
+      "gallery_colour": "#6e7176",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "generic"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "black-head-antrim",
+    "name": "Black Head (Antrim)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/black-head-(antrim).aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.766933,
+      "lon": -5.688967,
+      "raw": "54°46.016' North 05°41.338' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 3s."
+    },
+    "sectors_raw": "None",
+    "sectors": [],
+    "range_raw": "27 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 27.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 16.0,
+    "light_height_m": 45.0,
+    "radar_beacon": null,
+    "ais": "AIS base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16428/Blackhead-Antrim_MainImage.jpg",
+      "https://www.irishlights.ie/media/16429/Blackhead-Antrim-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16430/Blackhead-Steven-Dodd-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16431/Blackhead-Steven-Dodd-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16432/Blackhead-Steven-Dodd-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16433/Blackhead-Steven-Dodd-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16435/Blackhead-Steven-Dodd-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16436/Blackhead-Steven-Dodd-7-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#2a2b2f",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "black-head-clare",
+    "name": "Black Head (Clare)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/black-head-(clare).aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.154217,
+      "lon": -9.263983,
+      "raw": "53°09.253' North 009°15.839' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 5s"
+    },
+    "sectors_raw": "W045°-268° (223°), R268°-276° (8°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 45.0,
+        "to_deg": 268.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 223.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 268.0,
+        "to_deg": 276.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 8.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 11 nautical miles, Red 8 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 8.0,
+    "light_height_m": 20.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16437/Blackhead-clare_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#dcd9d2",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "black-rock-mayo",
+    "name": "Black Rock (Mayo)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/black-rock-(mayo).aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.067583,
+      "lon": -10.3205,
+      "raw": "54°04.055' North 010°19.230' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 12s"
+    },
+    "sectors_raw": "W276°-212° (296°), R212°-276° (64°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 276.0,
+        "to_deg": 212.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 296.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 212.0,
+        "to_deg": 276.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 64.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "W 20 nautical miles, R 16 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 20.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 16.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 86.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/10568/Blackrock-Mayo-1-10-3-2010-J-Kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/16438/Blackrock-Mayo-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16439/Blackrock-Mayo-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16440/Blackrock-Mayo_MainImage.jpg",
+      "https://www.irishlights.ie/media/16441/Blackrock-Mayo-1_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "black-rock-sligo",
+    "name": "Black Rock (Sligo)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/black-rock-(sligo).aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.307667,
+      "lon": -8.61765,
+      "raw": "54°18.460' North 08°37.059' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 5s"
+    },
+    "sectors_raw": "W130°-107° (337°), R107°-130° (23°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 130.0,
+        "to_deg": 107.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 337.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 107.0,
+        "to_deg": 130.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 23.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 10 nautical miles, Red 8 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 10.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 25.0,
+    "light_height_m": 24.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16442/Blackrock-Sligo-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16443/Blackrock-Sligo-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16444/Blackrock-Sligo-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16445/Blackrock-Sligo-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16446/Blackrock-Sligo-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16447/Blackrock-Sligo-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16448/Blackrock-Sligo-7-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16449/Blackrock-Sligo_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#9a9da3",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "blacksod",
+    "name": "Blacksod",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/blacksod.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.098717,
+      "lon": -10.060467,
+      "raw": "54°05.923' North 10°03.628' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) WR 7.5s"
+    },
+    "sectors_raw": "R189°-210° (21°), W210°-018° (168°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 189.0,
+        "to_deg": 210.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 21.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 210.0,
+        "to_deg": 18.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 168.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 12 nautical miles, Red 9 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 12.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 9.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 12.0,
+    "light_height_m": 13.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16450/Blacksod-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16451/Blacksod-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16452/Blacksod-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16453/Blacksod-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16455/Blacksod-John-Kelly-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "square",
+      "body_colour": "#9d9689",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "broadhaven",
+    "name": "Broadhaven",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/broadhaven.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.26775,
+      "lon": -9.888833,
+      "raw": "54°16.065' North 09°53.330' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Iso WR 4s."
+    },
+    "sectors_raw": "R110°-133° (23°), W113°-355° (222°), R355°-021° (26°",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 110.0,
+        "to_deg": 133.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 23.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 113.0,
+        "to_deg": 355.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 222.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 355.0,
+        "to_deg": 21.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White = 17 nautical miles, Red = 12 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 17.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 12.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 27.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16456/Broadhaven-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16457/Broadhaven-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16458/Broadhaven-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16459/Broadhaven-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16460/Broadhaven-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16461/Broadhaven-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16462/Broadhaven-7-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16463/Broadhaven_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "bull-rock",
+    "name": "Bull Rock",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/bull-rock.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.592017,
+      "lon": -10.301217,
+      "raw": "51°35.521' North 10°18.073' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 15s"
+    },
+    "sectors_raw": "360°",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": null,
+        "from_deg": 0.0,
+        "to_deg": 360.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 360.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 91.0,
+    "radar_beacon": "Morse 'N' on vessel's radar display",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16464/Bull_MainImage.jpg",
+      "https://www.irishlights.ie/media/16466/BULL-ROCK-DWELLLING2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16467/Bull-Rock-Lighthouse-IM-211107-05_MainImage.jpg",
+      "https://www.irishlights.ie/media/16468/Bull-Rock-Lighthouse-IM-211107-06_MainImage.jpg",
+      "https://www.irishlights.ie/media/16469/Bull-Rock-Lighthouse-IM-211107-38_MainImage.jpg",
+      "https://www.irishlights.ie/media/16470/Bull-Rock-Lighthouse-IM-211107-49_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "buncrana",
+    "name": "Buncrana",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/buncrana.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.126733,
+      "lon": -7.464683,
+      "raw": "55°07.604' North 07° 27.881' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "ISO WR 4s"
+    },
+    "sectors_raw": "R shore-052° W052°-139° (87°), R139°- shore",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": null,
+        "to_deg": 52.0,
+        "from_shore": true,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 52.0,
+        "to_deg": 139.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 87.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 139.0,
+        "to_deg": null,
+        "from_shore": false,
+        "to_shore": true,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "13 nautical miles, 10 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 13.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 6.0,
+    "light_height_m": 11.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14218/Buncrana-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/14219/Buncrana-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/14220/Buncrana-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/14221/Buncrana-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/14222/Buncrana-5_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#8e2420",
+      "bands": [
+        {
+          "colour": "#f0ede7",
+          "from_frac": 0.55,
+          "to_frac": 0.78
+        }
+      ],
+      "lantern_colour": "#8e2420",
+      "gallery_colour": "#8e2420",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "cashla-bay",
+    "name": "Cashla Bay",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/cashla-bay.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.2639,
+      "lon": -9.566367,
+      "raw": "53°15.834' North 09°33.982' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Dir Iso WRG 5s (24hr)"
+    },
+    "sectors_raw": "G005°-008.5° (3.5°), W008.5°-011.5° (3°), R011.5°-015° (3.5°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "green",
+        "from_deg": 5.0,
+        "to_deg": 8.5,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 3.5,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 8.5,
+        "to_deg": 11.5,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 3.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 11.5,
+        "to_deg": 15.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 3.5,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White: 8 nautical miles, Red and Green: 6 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 6.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 4.0,
+    "light_height_m": 6.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16471/Cashla-Bay-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16472/Cashla-Bay-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16473/Cashla-Bay_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#c2352b",
+          "from_frac": 0.0,
+          "to_frac": 1.0
+        }
+      ],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "castletown-directional-light",
+    "name": "Castletown Directional Light",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/castletown-directional-light.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.646317,
+      "lon": -9.90525,
+      "raw": "51°38.779' North 09°54.315' West",
+      "cross_check_delta_m": 3.5
+    },
+    "character": {
+      "raw": "Dir Oc WRG 5s (24 hours)"
+    },
+    "sectors_raw": "G019.5°-023° (3.5°), W023°-023.5° (0.5°), R023.5°-027° (3.5°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "green",
+        "from_deg": 19.5,
+        "to_deg": 23.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 3.5,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 23.0,
+        "to_deg": 23.5,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 0.5,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 23.5,
+        "to_deg": 27.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 3.5,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "Night: White 15 nm, Red and Green 12 nm. Day: White 4 nm, Red and Green 2nm",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 15.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 12.0,
+        "qualifier": null
+      },
+      {
+        "colour": "white",
+        "nautical_miles": 4.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 2.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 5.2,
+    "light_height_m": 7.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16474/Castletownbere-directional-light-b-kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/16475/Castletownbere-directional-light-c-ball-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16476/Castletownbere-directional-light-c-ball-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16477/Castletownbere-directional-light-c-ball-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16479/Castletownbere-directional-light-c-ball-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16480/Castletownbere-directional-light-c-ball-5-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#dcd9d2",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "copper-point",
+    "name": "Copper Point",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/copper-point.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.504167,
+      "lon": -9.534383,
+      "raw": "51°30.250' North 09°32.063 West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Q (3) W 10s."
+    },
+    "sectors_raw": "None",
+    "sectors": [],
+    "range_raw": "8 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 8.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": null,
+    "light_height_m": 16.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16481/Copper-Point_MainImage.jpg",
+      "https://www.irishlights.ie/media/16482/Copper-Point-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16483/Copper-Point-1_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#c2352b",
+          "from_frac": 0.82,
+          "to_frac": 1.0
+        }
+      ],
+      "lantern_colour": "#c2352b",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": [
+      "no tower height published"
+    ]
+  },
+  {
+    "id": "corlis-point-front",
+    "name": "Corlis Point Front LL",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/corlis-point-front.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 52.618333,
+      "lon": -9.60605,
+      "raw": "52°37.100' North 09°36.363' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Oc W 5s 24h"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "High intensity light by day. Nominal Range: By Day 7 nautical miles, By Night 10 nautical miles",
+    "ranges": [
+      {
+        "colour": "yellow",
+        "nautical_miles": 7.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 3.9,
+    "light_height_m": 9.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16484/Corlis-Point-Front_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#a8a49c",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "corlis-point-rear",
+    "name": "Corlis Point Rear LL",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/corlis-point-rear.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 52.628217,
+      "lon": -9.588933,
+      "raw": "52°37.693' North 09°35.336' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Oc W 5s 24hr"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "High intensity by day. Nominal Range: By day 7 nautical miles, By night 10 nautical miles",
+    "ranges": [
+      {
+        "colour": "yellow",
+        "nautical_miles": 7.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 25.0,
+    "light_height_m": 27.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16485/Corlis-Point-Rear_MainImage.jpg",
+      "https://www.irishlights.ie/media/16486/Corlis-Point-Rear-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16487/Corlis-Point-Rear-2_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "lattice",
+      "body_colour": "#9a9da3",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "cromwell-point",
+    "name": "Cromwell Point",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/cromwell-point.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.9337,
+      "lon": -10.321333,
+      "raw": "51°56.022' North 10°19.280' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl WR 2s"
+    },
+    "sectors_raw": "R304°-351° (47°), W104°-304° (200°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 304.0,
+        "to_deg": 351.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 47.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 104.0,
+        "to_deg": 304.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 200.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 17 nautical miles, Red 15 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 17.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 15.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 16.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16488/Cromwell-Point-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16489/Cromwell-Point-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16490/Cromwell-Point-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16491/Cromwell-Point-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16493/Cromwell-point-5-__MainImage.jpg",
+      "https://www.irishlights.ie/media/16494/Cromwell-point_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "crookhaven",
+    "name": "Crookhaven",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/crookhaven.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.47655,
+      "lon": -9.70455,
+      "raw": "51°28.593' North 09°42.273' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "LFl WR 8s"
+    },
+    "sectors_raw": "W131°-281° (150°), R281°-340° (59°), R281°-348° (67°), W348°-111° (123°),",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 131.0,
+        "to_deg": 281.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 150.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 281.0,
+        "to_deg": 340.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 59.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 281.0,
+        "to_deg": 348.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 67.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 348.0,
+        "to_deg": 111.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 123.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 13nm, Red 11 nm",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 13.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 14.0,
+    "light_height_m": 20.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16495/Crookhaven-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16496/Crookhaven-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16497/Crookhaven-2_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "donaghadee",
+    "name": "Donaghadee",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/donaghadee.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.645117,
+      "lon": -5.531,
+      "raw": "54°38.707' North 05°31.860' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "ISO WR 4s"
+    },
+    "sectors_raw": "Wshore-326°, R326°-shore",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": null,
+        "to_deg": 326.0,
+        "from_shore": true,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 326.0,
+        "to_deg": null,
+        "from_shore": false,
+        "to_shore": true,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "W17 nautical miles. R 13 nautical miles.",
+    "ranges": [
+      {
+        "colour": "red",
+        "nautical_miles": 13.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 16.0,
+    "light_height_m": 17.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16498/Donaghadee-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16499/Donaghadee-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16500/Donaghadee-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16501/Donaghadee-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16502/Donaghadee2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16503/Donaghadee-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/16504/Donaghadee-4_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#2a2b2f",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "dunmore-east",
+    "name": "Dunmore East",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/dunmore-east.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 52.148917,
+      "lon": -6.98895,
+      "raw": "52°08.935' North 06°59.337' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl WR 8s"
+    },
+    "sectors_raw": "W225°-310°(85°).R310°-004° (54°).",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 225.0,
+        "to_deg": 310.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 85.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 310.0,
+        "to_deg": 4.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 54.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 17 nautical miles, Red 13 nautical miles.",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 17.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 13.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 16.0,
+    "light_height_m": 13.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16505/Dunmore-East-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16506/Dunmore-East-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16507/Dunmore-East1-1-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#b5ab97",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "dunree",
+    "name": "Dunree",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/dunree.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.198133,
+      "lon": -7.554167,
+      "raw": "55°11.888' North 07°33.250' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) WR 5s"
+    },
+    "sectors_raw": "R320°-328° (8°), W328°-183° (215°), R183°-196° (13°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 320.0,
+        "to_deg": 328.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 8.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 328.0,
+        "to_deg": 183.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 215.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 183.0,
+        "to_deg": 196.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 13.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "W 12 nautical miles, R 9 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 12.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 9.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 6.0,
+    "light_height_m": 46.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16508/Dunree_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "eagle-island",
+    "name": "Eagle Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/eagle-island.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.2837,
+      "lon": -10.092733,
+      "raw": "54°17.022' North 10°05.564' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (3) W 20s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 11.0,
+    "light_height_m": 67.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/1035/eagle-island_MainImage.jpg",
+      "https://www.irishlights.ie/media/16509/Eagle-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16510/Eagle-Isand-John-Kelly_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "eeragh",
+    "name": "Eeragh",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/eeragh.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.148483,
+      "lon": -9.8567,
+      "raw": "53°08.909' North 09°51.402' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 15s"
+    },
+    "sectors_raw": "W Visible 297°-262° (325°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 297.0,
+        "to_deg": 262.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 325.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 31.0,
+    "light_height_m": 35.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14235/Eeragh-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/14236/Eeragh-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/14237/Eeragh-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/14238/Eeragh-5_MainImage.jpg",
+      "https://www.irishlights.ie/media/14239/Eeragh-6_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.3,
+          "to_frac": 0.48
+        },
+        {
+          "colour": "#26262a",
+          "from_frac": 0.66,
+          "to_frac": 0.84
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "fanad-head",
+    "name": "Fanad Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/fanad-head.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.27625,
+      "lon": -7.632017,
+      "raw": "55°16.575' North 07°37.921' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (5) WR 20s."
+    },
+    "sectors_raw": "R100°-110° (10°), W110°-313° (203°), R313°-345° (32°), W345°-100° (115°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 100.0,
+        "to_deg": 110.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 10.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 110.0,
+        "to_deg": 313.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 203.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 313.0,
+        "to_deg": 345.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 32.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 345.0,
+        "to_deg": 100.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 115.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "W 18 nautical miles, R 14 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 18.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 14.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 22.0,
+    "light_height_m": 39.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14226/Fanad-Head-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/14227/Fanad-Head-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/14229/Fanad-Head-4_MainImage.jpg",
+      "https://www.irishlights.ie/media/14230/Fanad-Head-5_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "fastnet",
+    "name": "Fastnet",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/fastnet.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.3893,
+      "lon": -9.602967,
+      "raw": "51°23.358' North 09°36.178' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl W 5s"
+    },
+    "sectors_raw": "None",
+    "sectors": [],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 54.0,
+    "light_height_m": 54.0,
+    "radar_beacon": "Morse 'G' on vessel's radar display",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14241/Fastnet-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/16392/Fastnet-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16395/Fastnet-7-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16397/Fastnet-9-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16401/Fastnet-13-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16402/Fastnet-14-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#8e8d88",
+      "bands": [],
+      "lantern_colour": "#4a4d52",
+      "gallery_colour": "#5a5d62",
+      "galleries": 2,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "galley-head",
+    "name": "Galley Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/galley-head.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.529967,
+      "lon": -8.9535,
+      "raw": "51°31.798' North 08°57.210' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (5) W 20s"
+    },
+    "sectors_raw": "W Vis 256°-065°(169°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 256.0,
+        "to_deg": 65.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 169.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "23 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 23.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 21.0,
+    "light_height_m": 53.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16512/Galley-Head_MainImage.jpg",
+      "https://www.irishlights.ie/media/16513/Galley-Head-1_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "green-island",
+    "name": "Green Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/green-island.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.03265,
+      "lon": -6.0959,
+      "raw": "54°01.959' North 06°05.754' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Oc W 3s"
+    },
+    "sectors_raw": "Vis 296-324 (28)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": null,
+        "from_deg": 296.0,
+        "to_deg": 324.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 28.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "11 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 14.0,
+    "light_height_m": 13.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16514/Green-Island-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16515/Green-Island-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16516/Green-Island-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16517/Green-Island-4-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#eceae4",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#c2352b",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "haulbowline",
+    "name": "Haulbowline",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/haulbowline.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.019933,
+      "lon": -6.079,
+      "raw": "54°01.196' North 06°04.740' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (3) W 10s. Exhibited in hours of darkness only"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "10 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 10.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 34.0,
+    "light_height_m": 32.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16518/Haulbowline-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16519/Haulbowline_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#9d968a",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#6f6c66",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "hook-head",
+    "name": "Hook Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/hook-head.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 52.123733,
+      "lon": -6.9295,
+      "raw": "52°07.424' North 06°55.770' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 3s. Also exhibited by day in poor visibility."
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "23 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 23.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 35.0,
+    "light_height_m": 46.0,
+    "radar_beacon": "Morse 'K' on vessel's radar display.",
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16520/Hook-Fireworks-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/16522/Hook-head-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16523/Hook-head-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16524/Hook-head-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16525/Hook-Head-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16526/Hook-head-7-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.3,
+          "to_frac": 0.5
+        },
+        {
+          "colour": "#26262a",
+          "from_frac": 0.66,
+          "to_frac": 0.84
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#a8332c",
+      "galleries": 2,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "inisheer",
+    "name": "Inisheer",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/inisheer.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.046617,
+      "lon": -9.526883,
+      "raw": "53°02.797' North 09°31.613' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Iso WR 12s"
+    },
+    "sectors_raw": "W (partially vis beyond 7M)225°-231° (6°), W231°-245° (14°), R245°-269° (24°), W269°-115°",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 225.0,
+        "to_deg": 231.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 6.0,
+        "qualifier": "partially vis beyond 7M"
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 231.0,
+        "to_deg": 245.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 14.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 245.0,
+        "to_deg": 269.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 24.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 269.0,
+        "to_deg": 115.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 20 nautical miles, Red 16 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 20.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 16.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 34.0,
+    "light_height_m": 34.0,
+    "radar_beacon": "'Morse K' on vessel's radar display",
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16528/Inisheer-9-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.34,
+          "to_frac": 0.52
+        },
+        {
+          "colour": "#26262a",
+          "from_frac": 0.7,
+          "to_frac": 0.88
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "inishgort",
+    "name": "Inishgort",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/inishgort.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.826567,
+      "lon": -9.670983,
+      "raw": "53°49.594' North 09°40.259' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "LFl W 10s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "10 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 10.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 8.0,
+    "light_height_m": 11.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16529/Inishgort-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16530/Inishgort-3-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "inishowen",
+    "name": "Inishowen",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/inishowen.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.2261,
+      "lon": -6.92915,
+      "raw": "55°13.566' North 06°55.749' West",
+      "cross_check_delta_m": 18.9
+    },
+    "character": {
+      "raw": "Fl(2) WRG 10s."
+    },
+    "sectors_raw": "G197°-211° (14°), W211°-249° (38°), R249°-000° (111°),",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "green",
+        "from_deg": 197.0,
+        "to_deg": 211.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 14.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 211.0,
+        "to_deg": 249.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 38.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 249.0,
+        "to_deg": 0.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 111.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "W 18 nautical miles. R 14 nautical miles. G 16 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 18.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 14.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 16.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 23.0,
+    "light_height_m": 29.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16531/Inishowen-7-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16532/Inishowen-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16533/Inishowen-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16534/Inishowen-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16535/Inishowen-1-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.44,
+          "to_frac": 0.62
+        }
+      ],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "inishtearaght",
+    "name": "Inishtearaght",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/inishtearaght.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 52.075683,
+      "lon": -10.661283,
+      "raw": "52°04.541' North 010°39.677' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) 20s"
+    },
+    "sectors_raw": "W Vis318°-221° (263°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 318.0,
+        "to_deg": 221.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 263.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "19 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 19.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 17.0,
+    "light_height_m": 84.0,
+    "radar_beacon": "Morse 'O' on vessel's radar display",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16536/Inishtearaght_MainImage.jpg",
+      "https://www.irishlights.ie/media/16537/Inishtearaght-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "inishtrahull",
+    "name": "Inishtrahull",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/inishtrahull.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.431067,
+      "lon": -7.2438,
+      "raw": "55°25.864' North 07°14.628' West",
+      "cross_check_delta_m": 3.7
+    },
+    "character": {
+      "raw": "Fl (3) W 15s. Shown by day in poor visibility."
+    },
+    "sectors_raw": "Obscured 256°-261°(5°)",
+    "sectors": [
+      {
+        "kind": "obscured",
+        "colour": null,
+        "from_deg": 256.0,
+        "to_deg": 261.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 5.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "19 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 19.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 23.0,
+    "light_height_m": 59.0,
+    "radar_beacon": "Morse 'T' on vessel's radar display.",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16380/Inishtrahull-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16381/Inishtrahull-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16382/Inishtrahull-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16383/Inishtrahull-7-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16384/Inishtrahull-8-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16386/Inishtrahull-10-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16388/Inishtrahull-Denis-Byrne_MainImage.jpg",
+      "https://www.irishlights.ie/media/16389/INISHTRAHULL_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "kish-bank",
+    "name": "Kish Bank",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/kish-bank.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 53.310833,
+      "lon": -5.9257,
+      "raw": "53°18.650' North 05°55.542' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) 20s. 24 hour light"
+    },
+    "sectors_raw": "None",
+    "sectors": [],
+    "range_raw": "22 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 22.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 31.0,
+    "light_height_m": 29.0,
+    "radar_beacon": "Morse 'T' on vessel's radar display.",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16337/Kish-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16338/Kish-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16340/Kish-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16341/Kish-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16342/Kish-6-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "caisson",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#c2352b",
+          "from_frac": 0.28,
+          "to_frac": 0.46
+        },
+        {
+          "colour": "#c2352b",
+          "from_frac": 0.72,
+          "to_frac": 0.86
+        }
+      ],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "loop-head",
+    "name": "Loop Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/loop-head.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 52.5612,
+      "lon": -9.9323,
+      "raw": "52°33.672'North 09°55.938' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Fl (4) W 20s"
+    },
+    "sectors_raw": "W vis280°-218° (298°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 280.0,
+        "to_deg": 218.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 298.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "23 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 23.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 23.0,
+    "light_height_m": 84.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16539/Loop-Head_MainImage.jpg",
+      "https://www.irishlights.ie/media/16540/Loop-Head-1-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "maidens",
+    "name": "Maidens",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/maidens.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.929133,
+      "lon": -5.727817,
+      "raw": "54°55.748' North 05°43.669' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (3) W 15s 24h"
+    },
+    "sectors_raw": "Aux R Vis142°-182° (40°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "red",
+        "from_deg": 142.0,
+        "to_deg": 182.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 40.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "23 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 23.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 23.0,
+    "light_height_m": 29.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/10571/Maidens-1-11-8-2010-J-Kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/10572/Maidens-3-12-8-2010-J-Kelly_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "mew-island",
+    "name": "Mew Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/mew-island.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.698717,
+      "lon": -5.513733,
+      "raw": "54°41.923' North 05°30.824' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (4) W 30s. Exhibited by day in poor visibility."
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "24 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 24.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 37.0,
+    "light_height_m": 37.0,
+    "radar_beacon": "Morse 'O' on vessel's radar display.",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16343/Mew-Island-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16344/Mew-Island-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16345/Mew-Island-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16346/Mew-Island-1-John-Kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/16347/Mew-Island-2-John-Kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/16348/Mew-Island-3-John-Kelly_MainImage.jpg",
+      "https://www.irishlights.ie/media/16349/Mew-Island-4-John-Kelly_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#26262a",
+      "bands": [
+        {
+          "colour": "#f2efe9",
+          "from_frac": 0.52,
+          "to_frac": 0.68
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "mine-head",
+    "name": "Mine Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/mine-head.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.9926,
+      "lon": -7.587083,
+      "raw": "51°59.556' North 07°35.225' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (4) 30s"
+    },
+    "sectors_raw": "W Vis 228°-052° (184°).",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 228.0,
+        "to_deg": 52.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 184.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "12 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 12.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 21.0,
+    "light_height_m": 87.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16579/Mine-Head_MainImage.jpg",
+      "https://www.irishlights.ie/media/16580/Mine-Head-4-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "mizen-head",
+    "name": "Mizen Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/mizen-head.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.44985,
+      "lon": -9.820417,
+      "raw": "51°26.991' North 09°49.225' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Iso W 4s"
+    },
+    "sectors_raw": "Vis 313°-133°",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": null,
+        "from_deg": 313.0,
+        "to_deg": 133.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "15 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 15.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": null,
+    "light_height_m": 55.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16543/Mizen-Head-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16544/Mizen-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#eceae4",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": [
+      "no tower height published"
+    ]
+  },
+  {
+    "id": "muglins",
+    "name": "Muglins",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/muglins.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 53.2754,
+      "lon": -6.076317,
+      "raw": "53°16.524' North 06°04.579' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl R 5 s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "11 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 9.0,
+    "light_height_m": 14.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16545/Muglins-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16546/Muglins-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16547/Muglins-3-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [
+        {
+          "colour": "#c2352b",
+          "from_frac": 0.46,
+          "to_frac": 0.68
+        }
+      ],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "old-head-of-kinsale",
+    "name": "Old Head of Kinsale",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/old-head-of-kinsale.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.604783,
+      "lon": -8.533633,
+      "raw": "51°36.287' North 08°32.018' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) W 10s. Exhibited by day in conditons of poor visibility"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "20 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 20.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 30.0,
+    "light_height_m": 72.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/12596/old-head-sunset-2-mmcmanus_MainImage.jpg",
+      "https://www.irishlights.ie/media/16549/Old-head-of-Kinsale-5-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#26262a",
+      "bands": [
+        {
+          "colour": "#f2efe9",
+          "from_frac": 0.36,
+          "to_frac": 0.56
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rathlin-east",
+    "name": "Rathlin East",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rathlin-east.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.30185,
+      "lon": -6.171883,
+      "raw": "55°18.111' North 06°10.313' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (4) W 20s. Exhibited throughout 24 hours"
+    },
+    "sectors_raw": "W Vis110°-006° (256°), W Vis036°-058° (22°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 110.0,
+        "to_deg": 6.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 256.0,
+        "qualifier": null
+      },
+      {
+        "kind": "visibility",
+        "colour": "white",
+        "from_deg": 36.0,
+        "to_deg": 58.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 22.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "26 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 26.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 27.0,
+    "light_height_m": 74.0,
+    "radar_beacon": "Morse 'G' on vessel's radar display.",
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16552/Rathlin-East-3-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.0,
+          "to_frac": 0.3
+        }
+      ],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rathlin-obirne",
+    "name": "Rathlin O'Birne",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rathlin-obirne.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 54.6636,
+      "lon": -8.832517,
+      "raw": "54°39.816'North 08°49.951' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl WR 15s."
+    },
+    "sectors_raw": "R195°-307° (112°), W307°-195° (248°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 195.0,
+        "to_deg": 307.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 112.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 307.0,
+        "to_deg": 195.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 248.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 12 nautical miles, Red 10 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 12.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 10.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 20.0,
+    "light_height_m": 35.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16553/Rathlin-OBeirne-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16554/Rathlin-OBirne-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rathlin-west",
+    "name": "Rathlin West",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rathlin-west.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.300867,
+      "lon": -6.28025,
+      "raw": "55°18.052' North 06°16.815' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl R 5s (Red Visible)"
+    },
+    "sectors_raw": "Red Visibile 015°-225° (210°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": "red",
+        "from_deg": 15.0,
+        "to_deg": 225.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 210.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "22 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 22.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 18.0,
+    "light_height_m": 62.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14231/Rathlin-West-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/14232/Rathlin-West-2_MainImage.jpg",
+      "https://www.irishlights.ie/media/14233/Rathlin-West-3_MainImage.jpg",
+      "https://www.irishlights.ie/media/16375/Rathlin-West-Birds_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "roancarrigmore",
+    "name": "Roancarrigmore",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/roancarrigmore.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.65305,
+      "lon": -9.74705,
+      "raw": "51°39.183' North 09°44.823' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Fl WR 3s"
+    },
+    "sectors_raw": "W312°-050° (98°), R050°-122° (72°), R(reduced)122°-207° (85°), Blank 207°-246°(39°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 312.0,
+        "to_deg": 50.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 98.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 50.0,
+        "to_deg": 122.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 72.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 122.0,
+        "to_deg": 207.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 85.0,
+        "qualifier": "reduced"
+      },
+      {
+        "kind": "sector",
+        "colour": null,
+        "from_deg": 207.0,
+        "to_deg": 246.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 39.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 11 nautical miles, Red 9 nautical miles, Red (reduced) 5 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 9.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 5.0,
+        "qualifier": "reduced"
+      }
+    ],
+    "tower_height_m": 7.0,
+    "light_height_m": 18.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16364/Roancarrigmore-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16365/Roancarrigmore-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16368/Roancarrigmore-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16370/Roancarrigmore-7-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#b9bcc1",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#8a8d93",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "roches-point",
+    "name": "Roches Point",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/roches-point.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.7931,
+      "lon": -8.254783,
+      "raw": "51°47.586' North 08°15.287' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl WR 3s. Exhibited by day in conditons of poor visibility"
+    },
+    "sectors_raw": "R shore-292°. W 292°-016° (84°).R 016°-033°(17°).W(unintensified) 033°-159° (126°). R 159°-shore.",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": null,
+        "to_deg": 292.0,
+        "from_shore": true,
+        "to_shore": false,
+        "width_deg": null,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 292.0,
+        "to_deg": 16.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 84.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 16.0,
+        "to_deg": 33.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 17.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 33.0,
+        "to_deg": 159.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 126.0,
+        "qualifier": "unintensified"
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 159.0,
+        "to_deg": null,
+        "from_shore": false,
+        "to_shore": true,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 20 nautical miles, Red 16 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 20.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 16.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 15.0,
+    "light_height_m": 30.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16555/Roches-Point-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16556/Roches-Point-4-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rockabill",
+    "name": "Rockabill",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rockabill.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 53.59685,
+      "lon": -6.00495,
+      "raw": "53°35.811' North 06°00.297' West",
+      "cross_check_delta_m": 0.0
+    },
+    "character": {
+      "raw": "Fl WR 12s"
+    },
+    "sectors_raw": "W178°-329° (151°). R329°-178° (209°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 178.0,
+        "to_deg": 329.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 151.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 329.0,
+        "to_deg": 178.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 209.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 18 nautical miles, Red 14 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 18.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 14.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 32.0,
+    "light_height_m": 45.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16557/Rockabill-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16558/Rockabill-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16559/Rockabill-6-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.5,
+          "to_frac": 0.64
+        }
+      ],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rotten-island",
+    "name": "Rotten Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rotten-island.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 54.61465,
+      "lon": -8.440583,
+      "raw": "54°36.879' North 08°26.435' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl WR 4s"
+    },
+    "sectors_raw": "W225°-008° (113°), R008°-039° (31°), W039°-208° (169°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 225.0,
+        "to_deg": 8.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 113.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 8.0,
+        "to_deg": 39.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 31.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 39.0,
+        "to_deg": 208.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 169.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 15 nautical miles, Red 11 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 15.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 14.0,
+    "light_height_m": 20.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16560/Rotten-Island-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "rue-point",
+    "name": "Rue Point",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/rue-point.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.258883,
+      "lon": -6.191233,
+      "raw": "55°15.533' North 06°11.474' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (2) W 5s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "14 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 14.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 11.0,
+    "light_height_m": 16.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16561/Rue-Point-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16562/Rue-Point_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.16,
+          "to_frac": 0.34
+        },
+        {
+          "colour": "#26262a",
+          "from_frac": 0.52,
+          "to_frac": 0.7
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "sheeps-head",
+    "name": "Sheeps Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/sheeps-head.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.543183,
+      "lon": -9.848717,
+      "raw": "51°32.591' North 09°50.923' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl(3) WR 15s"
+    },
+    "sectors_raw": "R011.3°-016.6° (5.3°), W016.6°-212.5° (195.9°)",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 11.3,
+        "to_deg": 16.6,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 5.3,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 16.6,
+        "to_deg": 212.5,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 195.9,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 18 nautical miles, Red 15 nautical miles",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 18.0,
+        "qualifier": null
+      },
+      {
+        "colour": "red",
+        "nautical_miles": 15.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 7.0,
+    "light_height_m": 83.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16565/Sheeps-head-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16566/Sheeps-Head-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16567/Sheeps-head_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#8a8d93",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "skelligs-rock",
+    "name": "Skelligs",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/skelligs-rock.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.768467,
+      "lon": -10.541983,
+      "raw": "51°46.108' North 10°32.519' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (3) 15s."
+    },
+    "sectors_raw": "Visible 262°-115° (213°)",
+    "sectors": [
+      {
+        "kind": "visibility",
+        "colour": null,
+        "from_deg": 262.0,
+        "to_deg": 115.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 213.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "12 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 12.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 12.0,
+    "light_height_m": 53.0,
+    "radar_beacon": null,
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16361/Skelligs-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16362/Skelligs-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16363/Skelligs-4-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "slyne-head",
+    "name": "Slyne Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/slyne-head.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.39995,
+      "lon": -10.234183,
+      "raw": "53°23.997' North 10°14.051' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (2)W 15s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "19 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 19.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 24.0,
+    "light_height_m": 35.0,
+    "radar_beacon": "Morse 'T' on vessel's radar display",
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16350/Slyne-Head-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16351/Slyne-Head-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16352/Slyne-Head-3-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16353/Slyne-Head-4-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16354/Slyne-Head-5-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16355/Slyne-Head-6-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16356/Slyne-Head-7-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#26262a",
+      "bands": [],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "st-johns-donegal",
+    "name": "St Johns Point (Co Donegal)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/st-johns-(donegal).aspx",
+    "coast": "west",
+    "position": {
+      "lat": 54.569367,
+      "lon": -8.46095,
+      "raw": "54°34.162'North 08°27.657' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl W 6s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "14 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 14.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 14.0,
+    "light_height_m": 30.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14225/St-Johns-Donegal-1_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#d8d5ce",
+      "bands": [],
+      "lantern_colour": "#6e7176",
+      "gallery_colour": "#6e7176",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "generic"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "st-johns-point-down",
+    "name": "St John’s Point (Co Down)",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/st-john’s-point-(down).aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.22675,
+      "lon": -5.660183,
+      "raw": "54°13.605' North 05°39.611' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Q (2) W 7.5s"
+    },
+    "sectors_raw": "Aux W064°-078° (14°), R078°-shore",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 64.0,
+        "to_deg": 78.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 14.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 78.0,
+        "to_deg": null,
+        "from_shore": false,
+        "to_shore": true,
+        "width_deg": null,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "25 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 25.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 40.0,
+    "light_height_m": 37.0,
+    "radar_beacon": null,
+    "ais": "AIS Base station",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14223/St-Johns-Point-Down-1_MainImage.jpg",
+      "https://www.irishlights.ie/media/14224/St-Johns-Point-Down-2_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#26262a",
+      "bands": [
+        {
+          "colour": "#d9a531",
+          "from_frac": 0.2,
+          "to_frac": 0.36
+        },
+        {
+          "colour": "#d9a531",
+          "from_frac": 0.52,
+          "to_frac": 0.68
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "straw-island",
+    "name": "Straw Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/straw-island.aspx",
+    "coast": "west",
+    "position": {
+      "lat": 53.11775,
+      "lon": -9.630667,
+      "raw": "53°07.065' North 09°37.840' West",
+      "cross_check_delta_m": 0.2
+    },
+    "character": {
+      "raw": "Fl (2) W 5s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "15 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 15.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 11.0,
+    "light_height_m": 11.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16568/Straw-4-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "tory-island",
+    "name": "Tory Island",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/tory-island.aspx",
+    "coast": "north",
+    "position": {
+      "lat": 55.272617,
+      "lon": -8.2494,
+      "raw": "55°16.357' North 08°14.964' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (4) W 30 secs, Night time only"
+    },
+    "sectors_raw": "Obscured by land 277°-302° (25°)",
+    "sectors": [
+      {
+        "kind": "obscured",
+        "colour": null,
+        "from_deg": 277.0,
+        "to_deg": 302.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 25.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "18 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 18.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 27.0,
+    "light_height_m": 40.0,
+    "radar_beacon": "Morse 'M' on vessel's radar display",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16357/Tory-Steven-Dodd-13-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16358/Tory-Steven-Dodd-17-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16359/Tory-Steven-Dodd-21-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16360/Tory-Steven-Dodd-2-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [
+        {
+          "colour": "#26262a",
+          "from_frac": 0.38,
+          "to_frac": 0.58
+        }
+      ],
+      "lantern_colour": "#26262a",
+      "gallery_colour": "#26262a",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "tuskar-rock",
+    "name": "Tuskar Rock",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/tuskar-rock.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 52.202917,
+      "lon": -6.207417,
+      "raw": "52°12.175' North 06°12.445' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Q (2) W 7.5s. Exhibited by day and by night"
+    },
+    "sectors_raw": "None",
+    "sectors": [],
+    "range_raw": "24 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 24.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 34.0,
+    "light_height_m": 33.0,
+    "radar_beacon": "Morse 'T' on vessel's radar display",
+    "ais": "AIS",
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/14172/Tuskar3_MainImage.jpg",
+      "https://www.irishlights.ie/media/14173/Tuskar4_MainImage.jpg",
+      "https://www.irishlights.ie/media/14177/Tuskar8_MainImage.jpg",
+      "https://www.irishlights.ie/media/14180/Tuskar11_MainImage.jpg",
+      "https://www.irishlights.ie/media/47906/Tuskar-Fog_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "tapered",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 2,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "valentia-directional-light",
+    "name": "Valentia Directional Light",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/valentia-directional-light.aspx",
+    "coast": "south",
+    "position": {
+      "lat": 51.925233,
+      "lon": -10.306933,
+      "raw": "51°55.514' North 10°18.416 West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Dir Oc WRG 4s 24hr"
+    },
+    "sectors_raw": "G136°-140° (4°), W140°-142° (2°), R142°-146° (4°),",
+    "sectors": [
+      {
+        "kind": "sector",
+        "colour": "green",
+        "from_deg": 136.0,
+        "to_deg": 140.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 4.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "white",
+        "from_deg": 140.0,
+        "to_deg": 142.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 2.0,
+        "qualifier": null
+      },
+      {
+        "kind": "sector",
+        "colour": "red",
+        "from_deg": 142.0,
+        "to_deg": 146.0,
+        "from_shore": false,
+        "to_shore": false,
+        "width_deg": 4.0,
+        "qualifier": null
+      }
+    ],
+    "range_raw": "White 11 nm (night), 3 nm (day); Red and Green 8 nm (night), 2 nm (day)",
+    "ranges": [
+      {
+        "colour": "white",
+        "nautical_miles": 11.0,
+        "qualifier": null
+      },
+      {
+        "colour": "green",
+        "nautical_miles": 8.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": null,
+    "light_height_m": 25.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16569/Valentia-LL-1-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16570/Valentia-LL-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16571/Valentia-LL-Steven-Dodd_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "conical",
+      "body_colour": "#f0ede7",
+      "bands": [],
+      "lantern_colour": "#e8e6e1",
+      "gallery_colour": "#7d7a75",
+      "galleries": 1,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": [
+      "no tower height published"
+    ]
+  },
+  {
+    "id": "vidal-bank",
+    "name": "Vidal Bank",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/vidal-bank.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 54.029983,
+      "lon": -6.09055,
+      "raw": "54°01.799' North 006°05.433' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Oc W 3s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "11 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 11.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 8.0,
+    "light_height_m": 7.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16572/Vidal-Bank-1-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "box",
+      "body_colour": "#eceae4",
+      "bands": [],
+      "lantern_colour": "#8a8d93",
+      "gallery_colour": "#c2352b",
+      "galleries": 0,
+      "has_dwelling": false,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  },
+  {
+    "id": "wicklow-head",
+    "name": "Wicklow Head",
+    "source_url": "https://www.irishlights.ie/tourism/our-lighthouses/wicklow-head.aspx",
+    "coast": "east",
+    "position": {
+      "lat": 52.965783,
+      "lon": -5.99815,
+      "raw": "52°57.947' North 05°59.889' West",
+      "cross_check_delta_m": 0.4
+    },
+    "character": {
+      "raw": "Fl (3) W 15s"
+    },
+    "sectors_raw": null,
+    "sectors": [],
+    "range_raw": "23 nautical miles",
+    "ranges": [
+      {
+        "colour": null,
+        "nautical_miles": 23.0,
+        "qualifier": null
+      }
+    ],
+    "tower_height_m": 14.0,
+    "light_height_m": 37.0,
+    "radar_beacon": null,
+    "ais": null,
+    "has_history": true,
+    "photos": [
+      "https://www.irishlights.ie/media/16573/Wicklow-Head-2-_MainImage.jpg",
+      "https://www.irishlights.ie/media/16574/Wicklow-Head-1-_MainImage.jpg"
+    ],
+    "tower": {
+      "shape": "cylindrical",
+      "body_colour": "#f2efe9",
+      "bands": [],
+      "lantern_colour": "#2a2b2f",
+      "gallery_colour": "#a8332c",
+      "galleries": 1,
+      "has_dwelling": true,
+      "is_default": false,
+      "evidence": "photo"
+    },
+    "data_notes": []
+  }
+]

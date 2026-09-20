@@ -1,0 +1,64 @@
+// =============================================================================
+// Atmosphere: the sea-chart surface the whole app sits on.
+// =============================================================================
+
+@use 'mixins' as *;
+
+.chart-surface {
+  @include grain(0.04);
+  @include contours;
+
+  background-color: var(--color-ink-950);
+}
+
+.chart-panel {
+  @include grain(0.03, 140px);
+  @include graticule(left);
+  @include hairline(top);
+
+  background:
+    linear-gradient(to bottom, var(--color-ink-850), var(--color-ink-900) 60%),
+    var(--color-ink-900);
+  backdrop-filter: blur(8px);
+}
+
+// A quiet caveat block — used for the generic-tower note and the
+// "not for navigation" footer. Rule 6: where we are representing rather than
+// depicting, the interface says so, legibly but without alarm.
+.chart-caveat {
+  border-left: 2px solid var(--color-brass-dim);
+  padding: 0.5rem 0 0.5rem 0.75rem;
+  color: var(--color-paper-dim);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+
+  strong {
+    color: var(--color-paper);
+    font-weight: 500;
+  }
+}
+
+// Sector / visibility / obscured arcs, and the map's light dots, share one
+// colour vocabulary. Generating it with @each is the kind of thing Sass is for:
+// six near-identical rules that must stay in lockstep.
+// Quoted deliberately: unquoted `white` and `red` are Sass *colour values*, not
+// strings, and interpolating them into a selector produces invalid CSS.
+$light-colours: 'white', 'red', 'green', 'yellow';
+
+@each $name in $light-colours {
+  .light-#{$name} {
+    --light-colour: var(--color-light-#{$name});
+
+    color: var(--light-colour);
+  }
+
+  .bloom-#{$name} {
+    @include bloom(var(--color-light-#{$name}));
+  }
+}
+
+.arc-obscured {
+  --light-colour: var(--color-arc-obscured);
+
+  color: var(--color-arc-obscured);
+}

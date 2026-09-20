@@ -1,0 +1,21 @@
+# Scraped HTML cache — regenerate with `uv run src/scripts/scrape_lighthouses.py`
+src/scripts/raw/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
