@@ -1,0 +1,13 @@
+# The Python pipeline builds the dataset at author time; the deployed app only
+# needs the generated JSON, which is committed under src/data/. Excluding it
+# keeps the upload small and stops Vercel seeing pyproject.toml/uv.lock at the
+# root and wondering whether this is a Python project.
+src/scripts/
+pyproject.toml
+uv.lock
+.venv/
+.ruff_cache/
+__pycache__/
+
+# Notes and reference material, not needed to build or serve.
+CLAUDE.md
