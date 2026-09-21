@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
@@ -14,5 +15,16 @@ if (!container) throw new Error('#root is missing from index.html');
 createRoot(container).render(
   <StrictMode>
     <App />
+    {/*
+      Vercel Analytics. This is a Vite SPA with no layout file, so the root
+      render is the equivalent place.
+
+      Imported from `@vercel/analytics/react`, not `/next` — the Next entry
+      pulls in Next-only APIs and will not build here.
+
+      Renders nothing, and is inert off Vercel (it logs in development rather
+      than sending anything).
+    */}
+    <Analytics />
   </StrictMode>,
 );
