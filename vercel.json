@@ -1,8 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-
-  "//": "Only the install command is overridden. Vercel's own Vite detection handles the rest: it runs `npm run build` and serves `dist`. Naming framework/buildCommand as well only adds ways for the two to disagree.",
-
   "installCommand": "npm ci --include=dev",
   "outputDirectory": "dist"
 }
